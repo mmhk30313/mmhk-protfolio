@@ -1,0 +1,80 @@
+.about {
+    /* background-color: #2b1b50; */
+    width: 100%;
+    overflow: hidden;
+}
+
+.color {
+    color: #71ccc4;
+    font-size: 18px;
+}
+
+.aboutMe-text h3, h6, p {
+    color: white;
+}
+
+.portfolio-img img, .portfolio-img {
+    animation: imgAnimate 2s ease;
+}
+
+.aboutMe-text {
+    padding: 20px;
+    animation: text 2s ease;
+}
+
+@keyframes imgAnimate {
+    0% {
+        opacity: 0;
+        transform: translateX(-250px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+}
+@keyframes text {
+    0% {
+        opacity: 0;
+        transform: translateX(250px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+}
+
+.box {
+    border-left: 5px solid;
+    border-image: linear-gradient( to bottom, #c70e67, rgba(0, 0, 0, 0)) 1 100%;
+    margin: 0 auto !important;
+    transition: all 1.5s;
+}
+.details{
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto !important;
+    animation: info 2s ease;
+}
+@keyframes info {
+    0% {
+        opacity: 0;
+        transform: translateY(250px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.box:hover {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.btn-outline-danger:hover {
+    background-color: #c70e67 !important;
+}

@@ -1,0 +1,48 @@
+.card {
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card-img, .card-img-top {
+    transition: transform 1s;
+}
+
+.card-img, .card-img-top:hover {
+    transform: scale(0.9);
+}
+
+.card .details {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(253, 253, 253, 0.9);
+    transform: scale(0);
+    transition: all 1.3s;
+}
+
+.card:hover .details {
+    transform: scale(1.1);
+}
+
+.card .details .content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 10px;
+}
+.content h3{
+    color: #e9348b;
+}
+.content p{
+    color: #e9348b;
+    font-weight: 500;
+}
+.link-repo a{
+    color: #e9348b;
+}
+.link-repo a:hover{
+    color: #2b1b50;
+}

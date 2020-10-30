@@ -1,0 +1,94 @@
+.about h3 {
+    color: #c70e67 !important;
+}
+
+.aboutMe h2 {
+    color: white;
+}
+
+.colorText {
+    color: #21be68;
+}
+
+.Typewriter {
+    color: white;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 280px) {
+    .Typewriter {
+        font-size: 15px;
+    }
+    .about h1 {
+        font-size: 15px;
+    }
+    .aboutMe h2 {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .Typewriter {
+        font-size: 20px;
+    }
+    .about h3 {
+        font-size: 20px;
+    }
+    .aboutMe h2 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Typewriter {
+        font-size: 25px;
+    }
+    .about h3 {
+        font-size: 25px;
+    }
+    .aboutMe h2 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .Typewriter {
+        font-size: 30px;
+    }
+    .about h3 {
+        font-size: 30px;
+    }
+    .aboutMe h2 {
+        font-size: 25px;
+    }
+}
+
+.text {
+    animation: textAnimate 2s ease;
+}
+
+.portfolio img {
+    animation: animate 2s ease;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: translateX(250px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+}
+
+@keyframes textAnimate {
+    0% {
+        opacity: 0;
+        transform: translateX(-250px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+}

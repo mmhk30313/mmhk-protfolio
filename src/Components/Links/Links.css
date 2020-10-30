@@ -1,0 +1,20 @@
+@media only screen and (min-width: 1024px) {
+    .links {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+.links a{
+    color: #da3484;
+    transition: all 0.3s ease;
+}
+.links a:hover{
+    color: lavender;
+    transform: translateY(-5px)
+}
+.copyright p{
+    color: white;
+}
+.copyright-name{
+    color: #da3484;
+}
