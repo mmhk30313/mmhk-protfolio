@@ -5,3 +5,7 @@ label{
 form {
     width: 360px;
 }
+.message{
+    position: relative;
+    top: 60px;
+}
